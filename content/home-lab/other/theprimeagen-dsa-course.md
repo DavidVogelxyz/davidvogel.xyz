@@ -43,6 +43,10 @@ An example of a logic problem that was solved with an elegant solution was dubbe
 
 I found learning to solve problems like this fascinating, and learning how to utilize different algorithms and concepts to solve problems more efficiently has yielded tons of benefits to me (most of which would only reveal themselves later into the future). I was enjoying the content so much, that I powered through the entire course in less than a week -- starting on Monday the 14th, I had completed the entire course by Friday, August 18th.
 
+[![TypeScript - Stack](/images/typescript-stack.png "TypeScript - Stack")](/images/typescript-stack.png)
+
+*An image of some TypeScript code that was written as I worked through thePrimeagen's DSA course. Specifically, this was an implementation of a data structure called a "stack".*
+
 In the course, I also learned algorithms and concepts such as:
 
 - Linear search

@@ -18,6 +18,10 @@ Around the same time, I watched yet [another NetworkChuck video](https://www.you
 
 So, I spun up a free HackTheBox account and started my journey. I started with the "Starting Points" section, which claimed that it would teach me the "basics of penetration testing." I learned how to connect to `FTP`, `SMB`, `telnet`, `rsync`, and `RDP` anonymously; used `nmap` to identify open ports, and broke into a MongoDB server. Then, I continued on, and learned how to perform SQL injections, server-side template injection, remote file inclusion, and how to perform attacks using remote SSH shells. I also learned how to use privilege escalation, perform cookie manipulation, brute force passwords with john the ripper, and exploited some LXD containers to gain access to privileged file systems. I was so engrossed with what I was learning, I completed all of the roughly 15 free VM targets in about a day or so -- I started on Thursday afternoon, and had exhausted the free tier by Friday evening.
 
+[![HacktheBox](/images/hackthebox.png "HacktheBox")](/images/hackthebox.png)
+
+*An image of the "HacktheBox - Starting Points - Tier 2" dashboard, with a short overview of the activities in this section.*
+
 ### Pwning HackTheBox
 
 *As a note: I have since learned a few things about the platform. HackTheBox (HTB) Labs is the part of the website that gives access to the "Starting Points" educational boxes. In addition, a "free user" is usually limited by the 2 hour time limit on the free-to-use "pwnboxes" -- I was able to maximize my use of the free tier by leveraging my Proxmox and VMs.*

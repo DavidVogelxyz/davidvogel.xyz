@@ -22,6 +22,10 @@ I had to find out.
 
 While my stint with NixOS wasn't longer than a few weeks, I was able to successfully configure a fresh "configuration.nix" file that implemented `dwm` as the window manager, as well as my `zsh` config files.
 
+[![NixOS - Neofetch](/images/nixos-neofetch.png "NixOS - Neofetch")](/images/nixos-neofetch.png)
+
+*An image of a `neofetch` output on a NixOS VM running DWM.*
+
 ### Beginning to Appreciate Git
 
 One thing I will note is that this was one of the first instances where I began to appreciate the value of `git`, and separately GitHub. Part of the fun of NixOS is being able to completely delete a VM and reinstall NixOS from scratch, while retaining all the progress I made by using a configuration file. However, in order to do that, I would need an easy way to access that configuration file. This is where GitHub began to play a role. GitHub allowed me to upload my configuration file to a publicly hosted repository, which made using `curl` to download that configuration file during install incredibly easy. On top of that, by using `git`, I now had a way to track any changes I made during the process.
