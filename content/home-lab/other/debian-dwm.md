@@ -28,6 +28,10 @@ Simply put, I had no idea how to have the installer be able to "pick up where it
 
 I broke the script up into smaller modules. The key was that every module that was going to get forked into an external shell would be preceeded by a logical operator that checked to see if the module file existed. If it didn't exist, it would simply move onto to the next module. If the module completed successfully, it would move that module into a separate directory, so that it wouldn't exist the next time the main script was run. And, if the module failed, it would leave the file in place, so that the main script would start from there if run again. It would also print a message to user, telling them exactly which script failed. Though it wasn't particularly elegant, it worked as a first implementation.
 
+[![Debian DWM](/images/debian-dwm.png "Debian DWM")](/images/debian-dwm.png)
+
+*An image of DWM running on a Debian VM, after having been installed using the `debian-dwm` script.*
+
 ### Improving My Work
 
 However, once I completed thePrimeagen's [Data Structures and Algorithms course](/home-lab/other/theprimeagen-dsa-course), I decided to revisit `debian-dwm` and make it better. Armed with my [Kinesis keyboard](/home-lab/other/kinesis) and a [better understanding of Git](/home-lab/other/git), I knew it was time to start applying what I had learned. One of the first things I learned how to do was to create a loop to run my modules, rather than a bunch of sequential commands. Again, in retrospect, it wasn't anything special, but it was yet another example of visible improvement. I also learned how to utilize variables in conjunction with my loop -- this meant that I could retain control of what order the loop ran the modules in by listing the modules in the order I wanted them to run. In addition, I leveraged the tools at my disposal by using my Proxmox server to test my code: by creating a standardized VM that I could clone for testing, I was able to rapidly test changes I made before uploading new commits to GitHub. At a much faster pace than before, I was able to write, test, and then implement improvements to my code.

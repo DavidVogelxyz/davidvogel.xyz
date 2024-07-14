@@ -43,6 +43,10 @@ So, I sat down one day in late August 2023, and wrote my own Neovim configs alon
 
 I was also introduced to some awesome new plugins!
 
+[![Neovim](/images/neovim-configs.png "Neovim")](/images/neovim-configs.png)
+
+*An image of my Neovim configuration directory, in Neovim, using the Telescope plugin to view files.*
+
 ## Plugins
 
 These tools have greatly improved my ability to use Neovim. Especially when working on code projects, I can't work without them.
